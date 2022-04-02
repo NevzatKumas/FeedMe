@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create Account</title>
+    </head>
+    <body>
+        <h1>Create an Account</h1>
+        <h2>Use your Rutgers Email to Sign Up</h2>
+        <form action="" method="">
+            <label for="email">E-mail: </label>
+            <input type="text" id="email" value=""><br>
+            <label for="password">Password: </label>
+            <input type="password" id="password"><br>
+            <label for="screenname">Screen Name: </label>
+            <input type="text" id="screenname"><br>
+        </form>
+    </body>
+</html>
+<script>
+    function validateRUmail(email){
+        let regex = new RegExp('[a-z0-9]+@scarletmail.rutgers.edu');
+        return console.log(regex.test(email));            
+    }
+    validateRUmail('nfk12@scarletmail.rutgers.edu');
+</script>
