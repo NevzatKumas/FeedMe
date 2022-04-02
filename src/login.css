@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+    font: 13px/20px"Lucida Grande", Tahoma, Verdana, sans-serif;
+    color: white;
+    background: #b71c1c;
+  }
+
+input{
+    font: 18px, Sans-Serif;
+    color: red;
+}
