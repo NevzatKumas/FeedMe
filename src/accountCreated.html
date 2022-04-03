@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <title>Account Created</title>
+</head>
+<body>
+    <h1>Please view your email for an authentication code to complete your profile.</h1>
+    <h2>The email sender is from <i>ruboardcompany@gmail.com</i></h2>
+<script>
+    function sendAuth(){
+        window.location.href="./login.html"
+    }
+</script>
+    <form>
+        <label for="authentication"></label> Enter Authentication Token: </label>
+        <input type="text" id="text" name="Authentication"></label>
+        <input type="button" value="Submit" onclick=sendAuth()>
+    </form>
+
+   
+</body>
