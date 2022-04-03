@@ -2118,8 +2118,8 @@ var ADJECTIVES = [
     "zoo"
   ];
    
-var adj = ADJECTIVES[Math.floor(Math.random()*1000)]
-var noun = NOUNS[Math.floor(Math.random()*1000)]
-var username = adj + noun;
-return username;
+    var adj = ADJECTIVES[Math.floor(Math.random()*1000)]
+    var noun = NOUNS[Math.floor(Math.random()*1000)]
+    var username = adj + noun;
+    return username;
 }
